@@ -12,7 +12,7 @@
 ----------
 ###NSUserDefaults可以存储的类型
 NSUserDefaults是一个单例， 在程序中只有一个实例对象，用于数据的保存。其支持的数据类型有：`NSNumber, NSString, NSData, NSArray, NSDictionary, BOOL`。**注意：存储对象不可变**，其使用方法非常简单，下面是今天用到的代码：
-```
+```Objective-C
 - (void)onSwitchChange:(id)sender
 {
     BOOL isOn = self.gameSwitch.isOn;
