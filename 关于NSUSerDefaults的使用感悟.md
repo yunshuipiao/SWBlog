@@ -12,7 +12,7 @@
 ----------
 ###NSUserDefaults可以存储的类型
 NSUserDefaults是一个单例， 在程序中只有一个实例对象，用于数据的保存。其支持的数据类型有：`NSNumber, NSString, NSData, NSArray, NSDictionary, BOOL`。**注意：存储对象不可变**，其使用方法非常简单，下面是今天用到的代码：
-```
+```Objective-C
 - (void)onSwitchChange:(id)sender
 {
     BOOL isOn = self.gameSwitch.isOn;
@@ -27,7 +27,7 @@ NSUserDefaults是一个单例， 在程序中只有一个实例对象，用于�
 }
 ```
 上面代码中，在UISwitch点击事件发生的情况下，通过`setBool： forkey:（唯一字符串）`将开关的状态进行存储（这里分了音效还有震动）。其余类型的存储也是一样。
-```
+```Objective-C
 -(void)setGameSwitchWithRow:(NSInteger)row
 {
     switch (row) {
@@ -49,7 +49,7 @@ NSUserDefaults是一个单例， 在程序中只有一个实例对象，用于�
 ```
 在控件初始化的情况下，在通过`[object boolForKey:(NSString *)]`进行读取设置。
 最后根据开关的状态，针对不同的内容进行设置。
-```
+```Objective-C
 - (void)didClickWith:(BOOL)isOn withTag:(int)tag
 {
     if (tag == Game_Audio) {
@@ -68,7 +68,8 @@ NSUserDefaults是一个单例， 在程序中只有一个实例对象，用于�
 比如Person类有三个属性，name，phoneNumber，sex，对其进行归档。
 需要在头文件声明`NSCoding协议`, 在m文件实现encodeWithCode和initWithCode即可。
 `.h:  @interface Person:NSObject <NSCoding>`
-```.m:
+```Objective-C
+.m:
 - (void) encodeWithCode: (NSCoder *)aCoder
 {
 [aCode encodeObject:self.name forkey:@"name"];
@@ -89,7 +90,7 @@ NSUserDefaults是一个单例， 在程序中只有一个实例对象，用于�
 ### 对NSData进行存储。
 对多人数据的存储，可以新建一个NSMutableArray来存储，这里就不再说明。
 对person实例赋值后，可以通过以下方法来存取使用。
-```
+```Objective-C
 // save
 NSData *data = [NSKeyedArchiver archiverDataWithRootObject:person];
 NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
