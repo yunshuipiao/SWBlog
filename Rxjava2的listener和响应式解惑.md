@@ -8,8 +8,11 @@
 最终在 **stackoverflow** 找到了灵感，特此记录：
 
 --------
-##实现一个Obervable的listener
+
+## 实现一个Obervable的listener
+
 [灵感来源：http://stackoverflow.com/questions/25457737/how-to-create-an-observable-from-onclick-event-android](http://stackoverflow.com/questions/25457737/how-to-create-an-observable-from-onclick-event-android)
+
 这是一个例子，对大部分监听都适用。使用场景如下：
 比如想在 button 点击后异步去获得数据，成功后再主线程更新 UI。实现如下：
 ```
@@ -46,8 +49,11 @@ button.setOnClickListener(listener);
 ```
 
 -------
-##对大部分事件的响应：比如list的add。
+
+## 对大部分事件的响应：比如list的add。
+
 [灵感来源：http://stackoverflow.com/questions/28816691/how-can-i-create-an-observer-over-a-dynamic-list-in-rxjava](http://stackoverflow.com/questions/28816691/how-can-i-create-an-observer-over-a-dynamic-list-in-rxjava)
+
 想在list.add()操作是获得响应，并打印列表。(这只是一个例子)
 ```
 //首先申明list和一个subject观察者并初始化
@@ -72,7 +78,9 @@ subject.subscribe(new Consumer<List<Integer>>() {
 这是大概流程，可扩展其他接收结果，取消订阅等。
 
 -------
-##踩坑笔记：
+
+## 踩坑笔记：
+
 今天上午在使用属性动画时，一直在研究重复restart结束的闪动效果。
 解决办法：添加线性动画插值器LinearInterpolator即可
 默认AccelerateDecelerateInterpolator(先加后减)
