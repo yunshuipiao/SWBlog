@@ -79,6 +79,8 @@ subject.subscribe(new Consumer<List<Integer>>() {
 ```
 这是大概流程，可扩展其他接收结果，取消订阅等。
 
+[完整代码：https://github.com/yunshuipiao/SWBlog/blob/master/Code/Rxjava.java](https://github.com/yunshuipiao/SWBlog/blob/master/Code/Rxjava.java)
+
 -------
 
 ## 踩坑笔记：
