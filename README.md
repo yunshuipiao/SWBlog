@@ -7,6 +7,9 @@
 
 ## 文章目录
 
+[Android之监听来电，权限管理， 多语言方案，双卡拨号](https://github.com/yunshuipiao/SWBlog/blob/master/Android%E4%B9%8B%E7%9B%91%E5%90%AC%E6%9D%A5%E7%94%B5%EF%BC%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%EF%BC%8C%20%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%96%B9%E6%A1%88%EF%BC%8C%E5%8F%8C%E5%8D%A1%E6%8B%A8%E5%8F%B7.md)
+
+[2016.11(context, 四大组件， inflate)](https://github.com/yunshuipiao/SWBlog/blob/master/2016.11(context%2C%20%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6%EF%BC%8C%20inflate).md)
 
 [2016.10（drawable， android初学， 生命周期，任务与返回栈， IPC）](https://github.com/yunshuipiao/SWBlog/blob/master/2016.10%EF%BC%88drawable%EF%BC%8C%20android%E5%88%9D%E5%AD%A6%EF%BC%8C%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%EF%BC%8C%E4%BB%BB%E5%8A%A1%E4%B8%8E%E8%BF%94%E5%9B%9E%E6%A0%88%EF%BC%8C%20IPC%EF%BC%89.md)
 
