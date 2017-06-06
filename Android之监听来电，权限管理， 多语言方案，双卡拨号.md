@@ -12,6 +12,7 @@ Anroid6.0以下， 权限申明后即可获取（国产定制系统除外）
 
 6.0以上不仅要声明，还需运行时获取。
 步骤大概如下：
+![](https://github.com/yunshuipiao/SWBlog/blob/master/media/picture/%E6%9D%83%E9%99%90%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png)
 
 已打电话权限为例说明（一般情况）：
 ```
@@ -215,6 +216,7 @@ public class PhoneReceiver extends BroadcastReceiver {
 ```
 
 添加语言文件strings：
+![](https://github.com/yunshuipiao/SWBlog/blob/master/media/picture/%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%96%B9%E6%A1%88.png)
 
 因为对ActionBar不起作用，因此需要调用以下方法设置title显示。
 ```
