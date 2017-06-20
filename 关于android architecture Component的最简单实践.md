@@ -3,6 +3,7 @@
 前不久Google IO 2017不仅将kotlin宣布为官方开发语言，还发布了谷歌官方 Android 应用架构库，这个新的架构库旨在帮助我们设计健壮、可测试的和可维护的应用程序。新项目也打算采用这套架构，下面一步步介绍怎么去配置和使用这套架构。（最简单介绍，详细内容看官方文档和其他参考资料）
 
 ###  总览
+![项目架构](https://github.com/yunshuipiao/SWBlog/blob/master/media/android%20architecture%20Component/%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84.png)
 简单说来，该架构由数据驱动， 彻底将UI和data分离，UI层很轻，不涉及任何数据的操作的内容。ViewModel将数据的变化的反映在UI上，本身也不持有数据。官方推荐所有数据持久化。viewmodel通过Repository来管理数据，保存到数据库或者从网络获取。
 
 
@@ -80,6 +81,8 @@ Room在sqlite之上提供了一个抽象层。
 
 下面介绍最简单的使用方法：
 
+![项目结构](https://github.com/yunshuipiao/SWBlog/blob/master/media/android%20architecture%20Component/%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84.png)
+
 如上图所示，项目结构对应架构图，另外的base，App是一些基础的ui， 项目的app单例，以后还会添加dagger2来分离模块。
 新建一个Story文件，内容如下：
 
@@ -148,14 +151,49 @@ object DatabaseManager {
     fun loadAllStories(): LiveData<List<Story>> {
         return db.storyDao().loadAllStories()
     }
+
+    fun simlutateInsertData() {
+        var list = ArrayList<Story>()
+
+        for (i in 1..20) {
+            var s = Story()
+            s.id = (i)
+            s.data = ((i * i).toString() + "--" + i.toString())
+            s.displayData = ((i * i).toString() + "--" + i.toString())
+            s.title = ((i * i).toString() + "--" + i.toString())
+            s.image = ((i * i).toString() + "--" + i.toString())
+            list.add(s)
+        }
+        insertStories(list)
+    }
 }
 //该单例对数据库封装了一层，方便处理db的各种操作（db初始化可使用依赖注入）
 数据库插入不能在主线程，涉及事务。
 ```
-下面在MainActivity中简单介绍怎么使用
+
+到此为止，该框架的数据库部分已经可以使用。
+下面作为例子说明怎么存数据。
 
 ```
-//未完待续
+//继承Appication，初始化并模拟插入数据
+class ZhiJokeApplication : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        DatabaseManager.initDb(this)
+        DatabaseManager.simlutateInsertData()
+    }
+}
+```
+编译项目运行，此时真机上应该保存有插入的数据。
+
+####怎么查看
+用一台已经root后的测试机，安装root文件管理器后，在根目录的 data/data/包名／database， 就能看到数据库新建并插入的数据了。
+![](https://github.com/yunshuipiao/SWBlog/blob/master/media/android%20architecture%20Component/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8.png)
+
+用`DatabaseManage.loadAllStories()`即可取出数据。
+
+```
+未玩待续
 ```
 
 
