@@ -7,6 +7,10 @@
 
 ## 文章目录
 
+[关于android architecture Component的入门资料(二)](https://github.com/yunshuipiao/SWBlog/blob/master/%E5%85%B3%E4%BA%8Eandroid%20architecture%20Component%E7%9A%84%E5%85%A5%E9%97%A8%E8%B5%84%E6%96%99(%E4%BA%8C).md)
+
+[关于android architecture Component的最简单实践](https://github.com/yunshuipiao/SWBlog/blob/master/%E5%85%B3%E4%BA%8Eandroid%20architecture%20Component%E7%9A%84%E6%9C%80%E7%AE%80%E5%8D%95%E5%AE%9E%E8%B7%B5.md)
+
 [Android之监听来电，权限管理， 多语言方案，双卡拨号](https://github.com/yunshuipiao/SWBlog/blob/master/Android%E4%B9%8B%E7%9B%91%E5%90%AC%E6%9D%A5%E7%94%B5%EF%BC%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%EF%BC%8C%20%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%96%B9%E6%A1%88%EF%BC%8C%E5%8F%8C%E5%8D%A1%E6%8B%A8%E5%8F%B7.md)
 
 [2016.11(context, 四大组件， inflate)](https://github.com/yunshuipiao/SWBlog/blob/master/2016.11(context%2C%20%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6%EF%BC%8C%20inflate).md)
