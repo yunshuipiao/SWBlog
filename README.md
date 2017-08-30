@@ -7,9 +7,7 @@
 
 ## 文章目录
 
-
-[关于android 悬浮窗和自启动的设置, 以及获取系统的信息]
-(https://github.com/yunshuipiao/SWBlog/blob/master/%E5%85%B3%E4%BA%8Eandroid%20%E6%82%AC%E6%B5%AE%E7%AA%97%E5%92%8C%E8%87%AA%E5%90%AF%E5%8A%A8%E7%9A%84%E8%AE%BE%E7%BD%AE%2C%20%E4%BB%A5%E5%8F%8A%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%BF%A1%E6%81%AF.md)
+[关于android 悬浮窗和自启动的设置, 以及获取系统的信息](https://github.com/yunshuipiao/SWBlog/blob/master/%E5%85%B3%E4%BA%8Eandroid%20%E6%82%AC%E6%B5%AE%E7%AA%97%E5%92%8C%E8%87%AA%E5%90%AF%E5%8A%A8%E7%9A%84%E8%AE%BE%E7%BD%AE%2C%20%E4%BB%A5%E5%8F%8A%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%BF%A1%E6%81%AF.md)
 
 [关于android architecture Component的入门资料(二)](https://github.com/yunshuipiao/SWBlog/blob/master/%E5%85%B3%E4%BA%8Eandroid%20architecture%20Component%E7%9A%84%E5%85%A5%E9%97%A8%E8%B5%84%E6%96%99(%E4%BA%8C).md)
 
