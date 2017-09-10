@@ -1,13 +1,14 @@
+# 关于android 悬浮窗和自启动的设置, 以及获取系统的信息
+
+标签（空格分隔）：Android
+
+---
 ## 悬浮窗
-
 对于是否有开悬浮窗，程序是可以检测到的。
-
 权限声明：
 `<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>`
 
-
-### 权限检查：
-
+###权限检查： 
 对于android6.0 以上的机型来说，google将悬浮窗权限和其他危险权限单独列出，因此可以检测， 方法：
 ```
 fun checkFloatWindowPermission(): Boolean {
@@ -25,20 +26,21 @@ fun checkFloatWindowPermission(): Boolean {
 
 android 4.4以下大部分机型声明即获取（包括大部分国产机）， 因此只需判断4.4.4 -- 5.1之间的系统即可。
 ```
-//如下，经过我的测试，只有小米和魅族需要在`api<=19`时单独处理，其他正常。
+//如下，经过我的测试，只有小米和魅族， 华为需要在`api<=19`时单独处理，其他正常。
 fun checkRomFloatWindowPermission(): Boolean {
 
     val brand = Build.MANUFACTURER
     if (brand.contains("Xiaomi")) {
         //check miui permission
         return checkMeizuAndMIUIFloatWindowPermission()
-
+    }
+    if (brand.contains("Huawei") || brand.contains("HUAWEI")) {
+        return checkMeizuAndMIUIFloatWindowPermission()
     }
     if (Build.VERSION.SDK_INT <= 19) {
         return true
     }
     when (brand) {
-        "Huawei", "HUAWEI" -> return true
         "Meizu" -> return checkMeizuAndMIUIFloatWindowPermission()
         "OPPO" -> return true
         "vivo" -> return true
@@ -50,7 +52,7 @@ fun checkRomFloatWindowPermission(): Boolean {
 }
 ```
 ```
-//-------------- Meizu MIUI start---------------------
+//-------------- Meizu MIUI huawei start---------------------
 
 fun checkMeizuAndMIUIFloatWindowPermission(): Boolean {
     if (Build.VERSION.SDK_INT >= 19) {
@@ -79,25 +81,24 @@ fun checkMeizuAndMIUIOp(op: Int): Boolean {
 //-------------- Meizu MIUI end ---------------------
 ```
 
+
 至此，权限检查完毕。
 不能动态获取，只能跳转到这只页去手动开启。
+
 ```
-fun applyFloatWindowPermission(activity: Activity) {
+fun applyFloatWindowPermission(context: Context) {
     if (Build.VERSION.SDK_INT >= 23) {
-        applySystemPermission(activity)
+        applySystemPermission(context)
         return
     }
     val brand = Build.MANUFACTURER
     when (brand) {
-        "Huawei", "HUAWEI" -> openHuaweiPermSetting(activity)
-        "Xiaomi" -> applyMIUIPermSetting(activity)
-        "Meizu" -> applyMeizuPermission(activity)
-        "OPPO" -> openOppoPermSetting(activity)
-        "vivo" -> openVivoPermSetting(activity)
-        "Sony" -> openSonyPermSetting(activity)
-        "Letv" -> openLetvPermSetting(activity)
-        "LG" -> openLGPermSetting(activity)
-        else -> applySystemPermission(activity)
+        "Huawei", "HUAWEI" -> applyHuaweiPermission(context)
+        "Xiaomi" -> applyMIUIPermSetting(context)
+        "Meizu" -> applyMeizuPermission(context)
+        "OPPO" -> openOppoPermSetting(context)
+        "vivo" -> openVivoPermSetting(context)
+        else -> applySystemPermission(context)
     }
 }
 ```
@@ -118,7 +119,6 @@ fun  applySystemPermission(activity: Activity) {
 
 ```
 //-------------- Meizu start---------------------
-
 fun applyMeizuPermission(activity: Activity) {
     val intent = Intent("com.meizu.safe.security.SHOW_APPSEC")
     intent.setClassName("com.meizu.safe", "com.meizu.safe.security.AppSecActivity")
@@ -131,14 +131,77 @@ fun applyMeizuPermission(activity: Activity) {
 ```
 
 ```
+//-------------- MIUI start---------------------
 fun applyMIUIPermSetting(activity: Activity) {
     openMIUIPermSetting(activity)
-
 }
+
+fun openMIUIPermSetting(context: Context): Boolean {
+    val i = Intent("miui.intent.action.APP_PERM_EDITOR")
+    val componentName = ComponentName("com.miui.securitycenter", "com.miui.permcenter.permissions.AppPermissionsEditorActivity")
+    i.component = componentName
+    i.putExtra("extra_pkgname", context.packageName)
+    try {
+        context.startActivity(i)
+    } catch (e: Exception) {
+        Logger.e(TAG, "openMIUIPermSetting jump e:" + e.message)
+        openSystemSetting(context)
+        return false
+    }
+    return true
+}
+//-------------- MIUI start---------------------
+```
+
+```
+//-------------- huawei start---------------------
+
+fun applyHuaweiPermission(context: Context) {
+    try {
+        val intent = Intent()
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+        var comp = ComponentName("com.huawei.systemmanager", "com.huawei.systemmanager.addviewmonitor.AddViewMonitorActivity")//悬浮窗管理页面
+        intent.component = comp
+        val version = getEmuiVersion()
+        Logger.d(TAG, "applyHuaweiPermission:"  + version)
+        if (version == 3.0) {
+            comp = ComponentName("com.huawei.systemmanager", "com.huawei.notificationmanager.ui.NotificationManagmentActivity")//悬浮窗管理页面
+            intent.component = comp
+            context.startActivity(intent)
+            return
+        }
+        context.startActivity(intent)
+//        if (version == 3.1) {
+//            //emui 3.1 的适配
+//            context.startActivity(intent)
+//        } else {
+//            //emui 3.0 的适配
+//            comp = ComponentName("com.huawei.systemmanager", "com.huawei.notificationmanager.ui.NotificationManagmentActivity")//悬浮窗管理页面
+//            intent.component = comp
+//            context.startActivity(intent)
+//        }
+    } catch (e: Exception) {
+        //抛出异常时提示信息
+        Toast.makeText(context, "进入设置页面失败，请手动设置", Toast.LENGTH_LONG).show()
+        Log.e(TAG, Log.getStackTraceString(e))
+    }
+}
+
+fun getEmuiVersion(): Double {
+    try {
+        val emuiVersion = getSystemProperty("ro.build.version.emui") ?: return 4.0
+        val version = emuiVersion.substring(emuiVersion.indexOf("_") + 1)
+        return java.lang.Double.parseDouble(version)
+    } catch (e: Exception) {
+        e.printStackTrace()
+    }
+    return 4.0
+}
+//-------------- huawei end---------------------
 ```
 
 
-附： 各手机厂商跳转到设置页的方法：
+附： 各手机厂商跳转到设置页的方法：(context)
 ```
 // open app setting according to rom ----------------
 
@@ -435,3 +498,9 @@ adb shell dumpsys activity top
 参考资料  ： http://www.voidcn.com/article/p-dpiicqfm-zw.html
 
 --------------------------
+
+
+
+
+
+
