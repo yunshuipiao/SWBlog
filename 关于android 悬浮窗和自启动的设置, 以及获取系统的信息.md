@@ -6,9 +6,12 @@
 ## 悬浮窗
 对于是否有开悬浮窗，程序是可以检测到的。
 权限声明：
+
 `<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>`
 
-###权限检查： 
+
+### 权限检查： 
+
 对于android6.0 以上的机型来说，google将悬浮窗权限和其他危险权限单独列出，因此可以检测， 方法：
 ```
 fun checkFloatWindowPermission(): Boolean {
