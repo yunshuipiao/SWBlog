@@ -15,7 +15,7 @@
 ### docker
 * [在服务器的docker中运行scrapy](https://github.com/yunshuipiao/SWBlog/blob/master/在服务器的docker中运行scrapy.md)
 
-### react
+### web
 * [create-react-app + webpack + antd + less + mobx 的demo入门配置](https://github.com/yunshuipiao/SWBlog)
 * [react-native + mobx 入门到放弃](https://github.com/yunshuipiao/SWBlog/blob/master/react-native%20%2B%20mobx%20%E5%85%A5%E9%97%A8%E5%88%B0%E6%94%BE%E5%BC%83.md)
 
