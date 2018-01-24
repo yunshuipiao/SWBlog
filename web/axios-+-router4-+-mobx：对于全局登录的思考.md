@@ -69,3 +69,31 @@ instance.interceptors.response.use( (response) => {
 测试成功，完整代码请查看:  
 [github: https://github.com/yunshuipiao/react-mobx-axios](https://github.com/yunshuipiao/react-mobx-axios)
 
+## 不借助mobx
+鉴权，登录重定向的判断都在axios的拦截器中，可以考虑将这部分代码在component中实现，这样可以用history去重定向到登录页面。
+```
+@withRouter
+@inject("routerStore")
+@observer
+class Home extends React.Component {
+
+    constructor(props) {
+        super(props)
+        //init and bind
+       // axios  interceptors
+    }
+
+    render() {
+        return (
+            <div>
+                <Switch>
+                    <Route path="/login" component={Login}/>
+                    <Route path="/" component={Main}/>
+                </Switch>
+            </div>
+        );
+    }
+}
+```
+
+
