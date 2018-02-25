@@ -8,7 +8,7 @@
 
 ### machine learning
 
-* [机器学习之线性回归(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/machine learing/机器学习之线性回归(纯python实现).md)
+* [机器学习之线性回归(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching%20learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)
 
 ### python + scrapy
 
