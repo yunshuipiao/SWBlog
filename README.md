@@ -6,6 +6,10 @@
 
 ## 文章目录
 
+### machine learning
+
+* [机器学习之线性回归(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/machine learing/机器学习之线性回归(纯python实现).md)
+
 ### python + scrapy
 
 * [快上车，scrapy爬虫飙车找福利(一)](https://github.com/yunshuipiao/SWBlog/blob/master/python/快上车，scrapy爬虫飙车找福利(一).md)
