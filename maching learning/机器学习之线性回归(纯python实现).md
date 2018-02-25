@@ -6,7 +6,7 @@
 一元线性回归就是在数据中找到一条直线，以最小的误差来(Loss)来拟和数据。
 ![image.png](http://upload-images.jianshu.io/upload_images/1794675-172c4070b436ed96.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
 
-上面提到的误差可以这样表示，假设那条直线如下图：
+上面提到的误差可以这样表示，假设那条直线如下图：  
 ![image.png](http://upload-images.jianshu.io/upload_images/1794675-e43cb8ebc64a9164.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
 
 
@@ -22,16 +22,16 @@
 上述公式只有m, b未知，因此可以看最一个m， b的二次方程，求Loss的问题就转变成了求极值问题。
 这里不做详细说明。
 
-另每个变量的偏导数为0， 求方程组的解。
-![image.png](http://upload-images.jianshu.io/upload_images/1794675-a60727d0dc3ad827.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
-![image.png](http://upload-images.jianshu.io/upload_images/1794675-02b7f07fdd600702.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)
+另每个变量的偏导数为0， 求方程组的解。  
+![image.png](http://upload-images.jianshu.io/upload_images/1794675-a60727d0dc3ad827.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620) 
+![image.png](http://upload-images.jianshu.io/upload_images/1794675-02b7f07fdd600702.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/620)  
 求出m，b即可得到所要的直线。
 
 ### 梯度下降法
 没有梯度下降就没有现在的深度学习。
 最小二乘法可以一步到位，直接求出m，b。在大部分公式中是无法简单的直接计算的。而梯度下降通过一步一步的迭代，慢慢的去靠近那条最优的直线，因此需要不断的优化。
-Loss的函数图像可以类比成一个碗。
-![image.png](http://upload-images.jianshu.io/upload_images/1794675-9b2c05037f1a5bf1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+Loss的函数图像可以类比成一个碗。  
+![image.png](http://upload-images.jianshu.io/upload_images/1794675-9b2c05037f1a5bf1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 要求的最小值就在碗底，随意给出一点往下走，即沿着下降最快的方向（梯度）往下走，定义每一步移动的步长，移动的次数来逼近最优值。
 下面用算法来实现：
 
@@ -162,7 +162,7 @@ def error(x, y, b, m):
     return (y - (m * x) - b) ** 2
 ```
 
-上述两种中，迭代次数足够多都可以逼近最优解。
+上述两种中，迭代次数足够多都可以逼近最优解。  
 分别求得的最优解为：
 1： 1.23930380135 1.86724196887
 2： 1.24291450769 1.86676417482
@@ -185,13 +185,13 @@ if __name__ == '__main__':
     scikit_learn()
 ```
 此时求的解为：
-1.24977978176  1.86585571。
+1.24977978176  1.86585571  
 可以说明上述计算结果比较满意，通过后期调整参数，可以达到比较好的效果。
 
-源码和数据参考：
+源码和数据参考：  
 [https://github.com/yunshuipiao/cheatsheets-ai-code](https://github.com/yunshuipiao/cheatsheets-ai-code/tree/master/machine_learning_algorithm/linear%20regression)
 
-感谢并参考博文：
+感谢并参考博文：  
 [线性回归理解（附纯python实现）](http://blog.csdn.net/sxf1061926959/article/details/66976356)  
 [Gradient Descent 梯度下降法](https://ctmakro.github.io/site/on_learning/gd.html)  
 [梯度下降（Gradient Descent）小结](http://www.cnblogs.com/pinard/p/5970503.html)
