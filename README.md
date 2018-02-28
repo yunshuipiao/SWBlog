@@ -8,7 +8,11 @@
 
 ### machine learning
 
-* [机器学习之线性回归(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching%20learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)
+* [机器学习之线性回归(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching%20learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)  
+* [机器学习之逻辑回归(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching%20learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)  
+* [机器学习之贝叶斯分类(python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching%20learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB(python%E5%AE%9E%E7%8E%B0).md)  
+* [机器学习之kNN算法(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching%20learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BkNN%E7%AE%97%E6%B3%95(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)
+
 
 ### python + scrapy
 
