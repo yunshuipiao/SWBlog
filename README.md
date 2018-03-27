@@ -1,7 +1,13 @@
-﻿# SWBOLG
+
+ 
+ # SWBOLG
+
 
 
 有所思有所悟，个人的技术博客
+
+
+$e^{i \pi} + 1 = 0$  
 
 
 ## 文章目录
@@ -64,4 +70,6 @@
 
 **微信公众号同步更新：sunwmedia**
 ![微信公众号](https://github.com/yunshuipiao/SWBlog/blob/master/media/picture/weixin.jpg)
+
+
 
