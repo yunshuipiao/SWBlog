@@ -23,7 +23,7 @@
 * [机器学习之SVM(简单理解)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BSVM(%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3).md)
 * [机器学习之分类回归树(python实现CART)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%88%86%E7%B1%BB%E5%9B%9E%E5%BD%92%E6%A0%91(python%E5%AE%9E%E7%8E%B0CART).md)
 * [机器学习之GBDT(简单理解)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BGBDT(%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3).md)  
-* [神经网络待更新]()  
+* [机器学习之神经网络识别手写数字(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E8%AF%86%E5%88%AB%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)  
 
 
 
