@@ -25,7 +25,9 @@
 * [机器学习之GBDT(简单理解)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BGBDT(%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3).md)  
 * [机器学习之神经网络识别手写数字(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E8%AF%86%E5%88%AB%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)  
 
-
+### 函数式编程(FP)  
+* [Android之纯函数-高阶函数简单介绍](https://github.com/yunshuipiao/SWBlog/blob/master/FP/Android%E4%B9%8B%E7%BA%AF%E5%87%BD%E6%95%B0-%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D.md)  
+* [Android之Kotlin高阶函数-柯里化-偏函数](https://github.com/yunshuipiao/SWBlog/blob/master/FP/Android%E4%B9%8BKotlin%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0-%E6%9F%AF%E9%87%8C%E5%8C%96-%E5%81%8F%E5%87%BD%E6%95%B0.md)  
 
 ### python + scrapy
 
@@ -49,7 +51,8 @@
 * [create-react-app + webpack + antd + less + mobx 的demo入门配置](https://github.com/yunshuipiao/SWBlog/blob/master/web/create-react-app%20%2B%20webpack%20%2B%20%20antd%20%2B%20less%20%2B%20mobx%20的demo入门配置.md)
 * [react-native + mobx 入门到放弃](https://github.com/yunshuipiao/SWBlog/blob/master/web/react-native%20%2B%20mobx%20入门到放弃.md)
 
-### Android
+### Android  
+* [Android之自定义AlertDialog完成Rxjava2倒计时](https://github.com/yunshuipiao/SWBlog/blob/master/android/Android-AlertDialog-Rxjava2.md)  
 * [关于android 悬浮窗和自启动的设置, 以及获取系统的信息](https://github.com/yunshuipiao/SWBlog/blob/master/android/%E5%85%B3%E4%BA%8Eandroid%20%E6%82%AC%E6%B5%AE%E7%AA%97%E5%92%8C%E8%87%AA%E5%90%AF%E5%8A%A8%E7%9A%84%E8%AE%BE%E7%BD%AE%2C%20%E4%BB%A5%E5%8F%8A%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%BF%A1%E6%81%AF.md)
 * [关于android architecture Component的入门资料(二)](https://github.com/yunshuipiao/SWBlog/blob/master/android/%E5%85%B3%E4%BA%8Eandroid%20architecture%20Component%E7%9A%84%E5%85%A5%E9%97%A8%E8%B5%84%E6%96%99(%E4%BA%8C).md)
 * [关于android architecture Component的最简单实践](https://github.com/yunshuipiao/SWBlog/blob/master/android/%E5%85%B3%E4%BA%8Eandroid%20architecture%20Component%E7%9A%84%E6%9C%80%E7%AE%80%E5%8D%95%E5%AE%9E%E8%B7%B5.md)
