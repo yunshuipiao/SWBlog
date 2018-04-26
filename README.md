@@ -35,6 +35,11 @@
 * [Android之纯函数-高阶函数简单介绍](https://github.com/yunshuipiao/SWBlog/blob/master/FP/Android%E4%B9%8B%E7%BA%AF%E5%87%BD%E6%95%B0-%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D.md)  
 * [Android之Kotlin高阶函数-柯里化-偏函数](https://github.com/yunshuipiao/SWBlog/blob/master/FP/Android%E4%B9%8BKotlin%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0-%E6%9F%AF%E9%87%8C%E5%8C%96-%E5%81%8F%E5%87%BD%E6%95%B0.md)  
 
+### algorithm
+* [最长递增子序列--动态规划和LCS(最长公共子序列)](https://github.com/yunshuipiao/SWBlog/blob/master/algorithm/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97--%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%92%8CLCS(%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%AD%90%E5%BA%8F%E5%88%97).md)
+* [无序数组中的第k大元素-快速排序和堆排序](https://github.com/yunshuipiao/SWBlog/blob/master/algorithm/%E6%97%A0%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E7%AC%ACk%E5%A4%A7%E5%85%83%E7%B4%A0-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E5%92%8C%E5%A0%86%E6%8E%92%E5%BA%8F.md)
+* [二叉树的遍历之多种后序遍历](https://github.com/yunshuipiao/SWBlog/blob/master/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86%E4%B9%8B%E5%A4%9A%E7%A7%8D%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86.md)
+
 ### python + scrapy
 
 * [快上车，scrapy爬虫飙车找福利(一)](https://github.com/yunshuipiao/SWBlog/blob/master/python/快上车，scrapy爬虫飙车找福利(一).md)
@@ -75,6 +80,9 @@
 
 ### other
 * [豆瓣读书书单之五万本书籍综合后推荐](https://github.com/yunshuipiao/SWBlog/blob/master/other/%E8%B1%86%E7%93%A3%E8%AF%BB%E4%B9%A6%E4%B9%A6%E5%8D%95%E4%B9%8B%E4%BA%94%E4%B8%87%E6%9C%AC%E4%B9%A6%E7%B1%8D%E7%BB%BC%E5%90%88%E5%90%8E%E6%8E%A8%E8%8D%90.md)
+* [豆瓣收录之中国影史百年](https://github.com/yunshuipiao/SWBlog/blob/master/other/%E8%B1%86%E7%93%A3%E6%94%B6%E5%BD%95%E4%B9%8B%E4%B8%AD%E5%9B%BD%E5%BD%B1%E5%8F%B2%E7%99%BE%E5%B9%B4.md)
+* [豆瓣收录之中国电影最强推荐榜单](https://github.com/yunshuipiao/SWBlog/blob/master/other/%E8%B1%86%E7%93%A3%E6%94%B6%E5%BD%95%E4%B9%8B%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E6%9C%80%E5%BC%BA%E6%8E%A8%E8%8D%90%E6%A6%9C%E5%8D%95.md)
+* [豆瓣收录之电视剧纪录片推荐榜单](https://github.com/yunshuipiao/SWBlog/blob/master/other/%E8%B1%86%E7%93%A3%E6%94%B6%E5%BD%95%E4%B9%8B%E7%94%B5%E8%A7%86%E5%89%A7%E7%BA%AA%E5%BD%95%E7%89%87%E6%8E%A8%E8%8D%90%E6%A6%9C%E5%8D%95.md)
 
 **微信公众号同步更新：sunwmedia**
 ![微信公众号](https://github.com/yunshuipiao/SWBlog/blob/master/media/picture/weixin.jpg)
