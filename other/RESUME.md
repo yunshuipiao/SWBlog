@@ -20,7 +20,7 @@
   * 采用Android Architecture Components + Rxjava2 + Dagger2 + kotlin实现，并负责整体UI的设计与实现
   * 负责来电监听和识别，弹窗显示，适配所有国内系统相关权限  
   * 完成应用内设计和关系链负责动画  
-  * 集成三方登录及其分享
+  * 集成三方登录及其分享  
 
 ## 自我评价
 * 热爱开源，热爱分享，经常学习公开课 (CS50(Harvard)，SICP(Berkeley)，Algorithms, deeplearning)
