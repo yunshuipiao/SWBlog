@@ -1,7 +1,14 @@
 
+
+
  
  # SWBOLG
 
+
+
+[![GitHub forks](https://img.shields.io/github/forks/yunshuipiao/SWBlog.svg)](https://github.com/yunshuipiao/SWBlog)
+[![GitHub forks](https://img.shields.io/github/stars/yunshuipiao/SWBlog.svg)](https://github.com/yunshuipiao/SWBlog)
+[![GitHub forks](https://img.shields.io/github/license/yunshuipiao/SWBlog.svg)](https://github.com/yunshuipiao/SWBlog)
 
 
 有所思有所悟，个人的技术博客
