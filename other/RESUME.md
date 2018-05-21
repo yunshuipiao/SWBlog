@@ -11,6 +11,7 @@
 ### 专业技能：
 * [个人github主页](https://github.com/yunshuipiao)：https://github.com/yunshuipiao
 * [博客主页](https://github.com/yunshuipiao/SWBlog)：https://github.com/yunshuipiao/SWBlog
+* [kaggle](https://www.kaggle.com/swensun):https://www.kaggle.com/swensun
 * 熟悉基本机器学习算法，包括但不限于线性回归，逻辑回归，svm，决策树，随机森林，集成方法和神经网络
 * 一年半Android开发经验，有直播，短视频，通讯录相关产品开发经验  
 
@@ -31,7 +32,6 @@
 ### 个人项目
 * kaggle入门项目：handwritten digits， Titanic， house price。
 * 爬虫类： 抓取网易云高频歌单，知乎热门答案，豆瓣电影数据并进行简单分析。
-* APP类：有个人上架安卓APP， 分别使用kotlin和React Native开发。
 
 ### 自我评价
 * 热爱开源，热爱分享，经常学习公开课 (CS50(Harvard)，SICP(Berkeley)，Algorithms, deeplearning)
