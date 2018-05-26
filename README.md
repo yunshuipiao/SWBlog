@@ -20,6 +20,20 @@
 
 ### machine learning
 
+* [机器学习之初学者入门资料推荐](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%88%9D%E5%AD%A6%E8%80%85%E5%85%A5%E9%97%A8%E8%B5%84%E6%96%99%E6%8E%A8%E8%8D%90.md)
+
+----
+
+* [神经网络之反向传播训练(8行代码)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B9%8B%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD%E8%AE%AD%E7%BB%83(8%E8%A1%8C%E4%BB%A3%E7%A0%81).md)
+
+---- 
+
+* [机器学习之红楼梦作者判断(一：KMeans)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BD%9C%E8%80%85%E5%88%A4%E6%96%AD(%E4%B8%80%EF%BC%9AKMeans).md)
+
+* [完整的机器学习项目:泰坦尼克生还预测(一)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E5%AE%8C%E6%95%B4%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE:%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E7%94%9F%E8%BF%98%E9%A2%84%E6%B5%8B(%E4%B8%80).md)
+
+----
+
 * [机器学习之线性回归(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching%20learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)  
 * [机器学习之逻辑回归(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching%20learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)  
 * [机器学习之贝叶斯分类(python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching%20learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB(python%E5%AE%9E%E7%8E%B0).md)  
@@ -30,6 +44,7 @@
 * [机器学习之SVM(简单理解)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BSVM(%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3).md)
 * [机器学习之分类回归树(python实现CART)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%88%86%E7%B1%BB%E5%9B%9E%E5%BD%92%E6%A0%91(python%E5%AE%9E%E7%8E%B0CART).md)
 * [机器学习之GBDT(简单理解)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BGBDT(%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3).md)  
+* [机器学习之XGBoost(简单理解)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BXGBoost(%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3).md)
 * [机器学习之神经网络识别手写数字(纯python实现)](https://github.com/yunshuipiao/SWBlog/blob/master/maching_learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E8%AF%86%E5%88%AB%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97(%E7%BA%AFpython%E5%AE%9E%E7%8E%B0).md)  
 -----
 * [机器学习之数据集基本特征分析(一)](https://github.com/yunshuipiao/hands-on-ml-with-sklearn-tf-python3/blob/master/02_blog/02_blog_01.ipynb)
