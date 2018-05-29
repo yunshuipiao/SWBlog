@@ -84,10 +84,10 @@
 其他资料博客：
 1. [reddit:learnmachinelearning](https://www.reddit.com/r/learnmachinelearning/)  
 reddit机器学习板块，有很多初学者面临的问题及其解答，还有高质量的文章推荐。  
-2. [cs229:machine learning](http://cs229.stanford.edu/syllabus.html)  
+2. [cs229:machine learning](http://cs229.stanford.edu/syllabus.html)    
 上述吴恩达机器学习课程的讲义， 相比视频，对原理和推导更加深入。  
 
-3. 最后我的github：https://github.com/yunshuipiao  
+3. 最后我的github：https://github.com/yunshuipiao  
 此部分内容会保持更新，阅读晚比较好的资料也会更新补充(强调：阅读完)
 
 也欢迎各位同学推荐自己阅读完的资料。
@@ -146,8 +146,7 @@ reddit机器学习板块，有很多初学者面临的问题及其解答，还�
 * [豆瓣收录之中国电影最强推荐榜单](https://github.com/yunshuipiao/SWBlog/blob/master/other/%E8%B1%86%E7%93%A3%E6%94%B6%E5%BD%95%E4%B9%8B%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E6%9C%80%E5%BC%BA%E6%8E%A8%E8%8D%90%E6%A6%9C%E5%8D%95.md)
 * [豆瓣收录之电视剧纪录片推荐榜单](https://github.com/yunshuipiao/SWBlog/blob/master/other/%E8%B1%86%E7%93%A3%E6%94%B6%E5%BD%95%E4%B9%8B%E7%94%B5%E8%A7%86%E5%89%A7%E7%BA%AA%E5%BD%95%E7%89%87%E6%8E%A8%E8%8D%90%E6%A6%9C%E5%8D%95.md)
 
-**微信公众号同步更新：sunwmedia**
-![微信公众号](https://github.com/yunshuipiao/SWBlog/blob/master/media/picture/weixin.jpg)
+
 
 
 
