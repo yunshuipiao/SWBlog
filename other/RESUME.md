@@ -1,5 +1,4 @@
 # 简历
----
 
 ### 个人信息
 * 孙文 - 男  -  1993.12  
@@ -11,8 +10,7 @@
 ### 专业技能：
 * [博客主页](https://github.com/yunshuipiao/SWBlog)：https://github.com/yunshuipiao/SWBlog
 * [kaggle](https://www.kaggle.com/swensun):https://www.kaggle.com/swensun
-* 一年半Android开发经验，有直播，短视频，通讯录相关产品开发经验  
-
+ 
 ### 个人项目
 * 常用工具：sklearn, lightgbm, tensorflow, nltk, wword2vec
 * 常用算法：Logistic regression , Random forests, Neural Nets.
@@ -23,8 +21,6 @@
   * 主要工作：使用nltk， sklearn，构建关于问题特征的词向量进行相似性判断，  
   采用lightgbm进行训练，完成相似问题判断。
               
-  
-
 ### 工作经历
 #### 欢聚时代 (广州华多网络科技有限公司) 
 * 工作时间：2016.7 ～ 如今
