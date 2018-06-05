@@ -20,7 +20,7 @@
    * 主要工作：可视化分析不同特征与存活率的关系， 类别特征one-hot编码，数值特征分段处理，  
               pipeline预处理数据, 使用LR， RF等进行投票分类，最终排名top10%。
 * [Quora Question Pairs](https://www.kaggle.com/c/quora-question-pairs)
-  * 主要工作：使用nltk， sklearn，构建关于问题特征的词向量进行相似性判断， 
+  * 主要工作：使用nltk， sklearn，构建关于问题特征的词向量进行相似性判断，  
   采用lightgbm进行训练，完成相似问题判断。
               
   
