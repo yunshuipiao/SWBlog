@@ -9,29 +9,26 @@
 * 工作意向：机器学习工程师
 
 ### 专业技能：
-* [个人github主页](https://github.com/yunshuipiao)：https://github.com/yunshuipiao
 * [博客主页](https://github.com/yunshuipiao/SWBlog)：https://github.com/yunshuipiao/SWBlog
 * [kaggle](https://www.kaggle.com/swensun):https://www.kaggle.com/swensun
-* 熟悉基本机器学习算法，包括但不限于线性回归，逻辑回归，svm，决策树，随机森林，集成方法和神经网络
 * 一年半Android开发经验，有直播，短视频，通讯录相关产品开发经验  
 
+### 个人项目
+* 常用工具：sklearn, lightgbm, tensorflow, nltk, wword2vec
+* 常用算法：Logistic regression , Random forests, Neural Nets.
+* [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
+   * 主要工作：可视化分析不同特征与存活率的关系， 类别特征one-hot编码，数值特征分段处理，  
+              pipeline预处理数据, 使用LR， RF等进行投票分类，最终排名top10%。
+* [Quora Question Pairs](https://www.kaggle.com/c/quora-question-pairs)
+  * 主要工作：使用nltk， sklearn，构建关于问题特征的词向量进行相似性判断， 
+  采用lightgbm进行训练，完成相似问题判断。
+              
+  
 
 ### 工作经历
 #### 欢聚时代 (广州华多网络科技有限公司) 
 * 工作时间：2016.7 ～ 如今
-
-#### Android项目： xgroup， 处处
-* 项目简介：通讯录工具， 通讯录备份与同步，大数据识别来电， 群社区等 
-* 项目职责:  
-  *  采用Android Architecture Components + Rxjava2 + Dagger2 + kotlin实现，并负责整体UI的设计与实现
-  *  负责来电监听和识别，弹窗显示，适配国内系统相关权限   
-  *  自定义view完成人脉关系链动画  
-  *  集成三方登录及其分享  
-
-
-### 个人项目
-* kaggle入门项目：handwritten digits， Titanic， house price。
-* 爬虫类： 抓取网易云高频歌单，知乎热门答案，豆瓣电影数据并进行简单分析。
+* 主要工作：Android 移动客户端开发
 
 ### 自我评价
 * 热爱开源，热爱分享，经常学习公开课 (CS50(Harvard)，SICP(Berkeley)，Algorithms, deeplearning)
