@@ -8,8 +8,8 @@
 * 工作意向：机器学习工程师
 
 ### 专业技能：
-* [博客主页](https://github.com/yunshuipiao/SWBlog)：https://github.com/yunshuipiao/SWBlog
-* [kaggle](https://www.kaggle.com/swensun):https://www.kaggle.com/swensun
+* [博客主页: https://github.com/yunshuipiao/SWBlog](https://github.com/yunshuipiao/SWBlog)
+* [kaggle主页: https://www.kaggle.com/swensun](https://www.kaggle.com/swensun)
  
 ### 个人项目
 * 常用工具：sklearn, lightgbm, tensorflow, nltk, wword2vec
