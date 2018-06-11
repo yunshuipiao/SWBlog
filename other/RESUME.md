@@ -15,16 +15,13 @@
 * 常用工具：sklearn, lightgbm, tensorflow, nltk, wword2vec
 * 常用算法：Logistic regression , Random forests, Neural Nets.
 * [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
-    * 主要工作：可视化分析不同特征与存活率的关系， 类别特征one-hot编码，数值特征分段处理，  
-              pipeline预处理数据, 使用LR， RF等进行投票分类，最终排名top10%  
+    * 主要工作：可视化分析不同特征与存活率的关系， 类别特征one-hot编码，数值特征分段处理，pipeline预处理数据, 使用LR， RF等进行投票分类，最终排名top10%  
               [[github]](https://github.com/yunshuipiao/sw-kaggle/blob/master/titanic/01.ipynb)
 * [Digit Recognizer](https://www.kaggle.com/c/digit-recognizer)  
-    * 主要工作：多分类问题，给定手写数字，进行0-9识别。  
-              分别使用numpy，tensorflow搭建ANN, CNN进行训练，识别率98%   
+    * 主要工作：多分类问题，给定手写数字，进行0-9识别。分别使用numpy，tensorflow搭建ANN, CNN进行训练，识别率98%   
               [[github]](https://github.com/yunshuipiao/sw-kaggle/blob/master/digit_recognizer/07-ann-cnn-rnn.ipynb)
 * [Quora Question Pairs](https://www.kaggle.com/c/quora-question-pairs)
-    * 主要工作：使用nltk， sklearn，构建关于问题特征的向量进行相似性判断，  
-              采用lightgbm进行训练，完成相似问题判断。   
+    * 主要工作：使用nltk， sklearn，构建关于问题特征的向量进行相似性判断,采用lightgbm进行训练，完成相似问题判断。   
               [[github]](https://github.com/yunshuipiao/sw-kaggle/blob/master/quora-question-pairs/01.ipynb)
               
 ### 工作经历
