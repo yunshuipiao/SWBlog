@@ -12,8 +12,8 @@
 * [kaggle主页: https://www.kaggle.com/swensun](https://www.kaggle.com/swensun)
  
 ### 个人项目
-* 常用工具：sklearn, lightgbm, tensorflow, nltk, wword2vec
-* 常用算法：Logistic regression , Random forests, Neural Nets.
+* 常用工具：sklearn, lightgbm, tensorflow, nltk
+* 常用算法：Logistic regression , Random forests, Neural Nets
 * [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
     * 主要工作：可视化分析不同特征与存活率的关系， 类别特征one-hot编码，数值特征分段处理，pipeline预处理数据, 使用LR， RF等进行投票分类，最终排名top10%  
               [[github]](https://github.com/yunshuipiao/sw-kaggle/blob/master/titanic/01.ipynb)
@@ -30,7 +30,7 @@
 * 主要工作：Android 移动客户端开发
 
 ### 自我评价
-* 热爱开源，热爱分享，经常学习公开课 (CS50(Harvard)，SICP(Berkeley)，Algorithms, deeplearning)
+* 热爱开源，热爱分享，经常学习公开课 (SICP(Berkeley)，Algorithms, deeplearning)
 * 沟通能力较强，团队内沟通效率高， 喜欢与优秀的人一起工作
 * 勇于尝试新技术，主动能力强，对数据挖掘，数据分析，机器学习相关内容很感兴趣，愿意从事相关工作
 
