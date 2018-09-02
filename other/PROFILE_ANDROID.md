@@ -3,17 +3,16 @@
 ### 个人信息
 * 孙文 - 男  -  1993.12  
 * 联系邮箱：1416316137@qq.com
-* 联系电话：16620144052(微信)
+* 联系电话：16620144052
 * 教育经历：合肥工业大学 - 计算机科学与技术 - 2016届本科 
 * 现居地点：广东广州
-* github：[https://github.com/yunshuipiao/](https://github.com/yunshuipiao/)
-* 工作意向：Android开发工程师
+* 工作职位：Android开发工程师
 
 ### 专业技能
 * 两年Android开发经验，从事直播，短视频和通讯录相关产品开发，熟悉Android开发流程
 * 掌握Android自定义控件，动画，事件分发，view绘制流程等知识，有相关应用经验
 * 熟悉Android运行机制和性能指标，负责UI性能优化及其重构工作
-* 熟悉Android Architecture Components框架，推动项目使用kotlin，加快开发速度
+* 熟悉Android Architecture Components框架，项目使用kotlin，加快开发速度
 * 熟悉Dagger2和Rxjava2的使用，解耦模块，封装其相应模块
 * 拥有良好的的阅读学习源代码能力，阅读过部分常用开源库等代码并学习其设计理念
 
@@ -34,7 +33,6 @@
 ### 个人项目
 * 有分别用Android Architecture Components + Dagger2 + Rxjava2和React Native实现的上线APP
 * 对数据敏感，python + scrapy 完成各类爬虫,并进行数据分析
-* 有数据竞赛经历，kaggle中Titanic竞赛目前排名10%
 * [个人博客：https://github.com/yunshuipiao/SWBlog](https://github.com/yunshuipiao/SWBlog)
 
 ### 自我评价
