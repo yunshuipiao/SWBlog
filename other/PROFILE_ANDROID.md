@@ -32,7 +32,7 @@
 #### 项目：OPPO Account-Services Sign in
 * 目的：支持海外用户使用Google或Facebook绑定OPPO ID登录游戏
 * okhttp + retrofit封装网络请求，room 数据库完成数据持久化
-* 使用mvvm框架AAC进行开发，可测试行，开发速度明显提升
+* 使用mvvm框架AAC进行开发，可测试性，开发速度明显提升
 * 接入Facebook 和 Google 登录sdk，完成Goolge Play审核上架
 
 ##### 项目：OPPO 账号sdk
