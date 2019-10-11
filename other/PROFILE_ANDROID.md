@@ -12,11 +12,19 @@
 ### 专业技能
 * 三年Android开发经验，从事直播，账号SDK等相关产品开发，熟悉Android开发流程
 * 掌握Android自定义控件，动画，事件分发，view绘制流程等知识，有相关应用经验
-* 熟悉Android运行机制和性能指标，负责部分性能优化及其重构工作
+* 熟悉Android运行机制和性能指标，负责性能优化及其重构工作
 * 熟悉Android Architecture Components框架，项目使用kotlin，加快开发速度
 * 拥有良好的的阅读学习源代码能力，阅读过部分常用开源库等代码并学习其设计理念
 
 ### 工作经验
+
+#### 广州智品网络科技有限公司(2019.6 - 至今)
+
+##### 项目：海内外小语种输入法和 Kino 视频客户端
+
+* 负责输入法的开发和维护工作，进行架构设计
+* 负责输入法启动优化，缩短启动时长，提高用户体验
+* 优化视频客户端主页，负责 React Native 转原生开发工作
 
 #### OPPO移动通信有限公司（2018.8 ～ 2019.5）
 ##### 项目： 我的OPPO 客户端
@@ -51,8 +59,8 @@
 
 ### 个人项目
 * [mcmillan7000：Android Jetpack开发的个人背单词项目，已上架Google play](https://play.google.com/store/apps/details?id=com.swensun.mcmillan)
-* 对数据敏感，python + scrapy 完成各类爬虫,并进行数据分析
 * [个人博客：https://github.com/yunshuipiao/SWBlog](https://github.com/yunshuipiao/SWBlog)
+* 对数据敏感，python + scrapy 完成各类爬虫,并进行数据分析
 
 ### 自我评价
 * 沟通能力较强，团队内沟通效率高，喜欢与优秀的人工作
