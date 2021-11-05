@@ -37,7 +37,6 @@
 
 ## 文章目录
 
-----
 
 ### machine learning 资料推荐
 目前学习相关知识所看过的书籍，资料，视频，下面我认为相对较好的机器学习入门路径，仅供参考。  
@@ -82,7 +81,7 @@ reddit机器学习板块，有很多初学者面临的问题及其解答，还�
 * [Android之自定义AlertDialog完成Rxjava2倒计时](https://github.com/yunshuipiao/SWBlog/issues/11)
 * [关于android 悬浮窗和自启动的设置, 以及获取系统的信息](https://github.com/yunshuipiao/SWBlog/issues/18)
 * [关于android architecture Component的入门资料(二)](https://github.com/yunshuipiao/SWBlog/issues/17)
-* [关于android architecture Component的最简单实践](https://github.com/yunshuipiao/SWBlog/blob/master/android/%E5%85%B3%E4%BA%8Eandroid%20architecture%20Component%E7%9A%84%E6%9C%80%E7%AE%80%E5%8D%95%E5%AE%9E%E8%B7%B5.md)
+* [关于android architecture Component的最简单实践](https://github.com/yunshuipiao/SWBlog/issues/16)
 * [Android之监听来电，权限管理， 多语言方案，双卡拨号](https://github.com/yunshuipiao/SWBlog/issues/12)
 * [Rxjava2的listener和响应式解惑](https://github.com/yunshuipiao/SWBlog/issues/14)
 * [从谷歌官方例子看constraintlayout](https://github.com/yunshuipiao/SWBlog/issues/15)
